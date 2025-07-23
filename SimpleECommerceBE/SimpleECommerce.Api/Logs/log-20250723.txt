@@ -1,0 +1,140 @@
+2025-07-23 12:40:54.015 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 12:40:54.137 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 12:40:55.119 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 12:40:55.397 +01:00 [INF] Hosting environment: Development
+2025-07-23 12:40:57.174 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 13:46:10.474 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 13:46:10.605 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 13:46:11.374 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 13:46:12.208 +01:00 [INF] Hosting environment: Development
+2025-07-23 13:46:13.763 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 13:46:53.130 +01:00 [ERR] The request matched multiple endpoints. Matches: 
+
+SimpleECommerce.Api.Controllers.CartController.Get (SimpleECommerce.Api)
+SimpleECommerce.Api.Controllers.CartController.Get (SimpleECommerce.Api)
+2025-07-23 14:06:10.987 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 14:06:11.122 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 14:06:11.305 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 14:06:11.520 +01:00 [INF] Hosting environment: Development
+2025-07-23 14:06:11.566 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 14:08:43.097 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 14:08:45.724 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 14:08:46.221 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 14:08:46.235 +01:00 [INF] Hosting environment: Development
+2025-07-23 14:08:46.397 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 16:25:31.577 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 16:25:31.700 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 16:25:32.965 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 16:25:35.745 +01:00 [INF] Hosting environment: Development
+2025-07-23 16:25:35.766 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 16:36:44.170 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 16:36:47.926 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 16:36:48.221 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 16:36:48.275 +01:00 [INF] Hosting environment: Development
+2025-07-23 16:36:48.305 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 16:49:20.845 +01:00 [ERR] Failed executing DbCommand (113ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 450), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItems] ([ProductId], [UserId], [Quantity])
+VALUES (@p0, @p1, @p2);
+2025-07-23 16:49:20.902 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'SimpleECommerce.Infrastructure.Data.SimpleECommerceDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CartItems_Products_ProductId". The conflict occurred in database "SimpleECommerceDb", table "dbo.Products", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:ebae19bf-39b3-49b7-8bf8-ab0e0bb4e38e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CartItems_Products_ProductId". The conflict occurred in database "SimpleECommerceDb", table "dbo.Products", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:ebae19bf-39b3-49b7-8bf8-ab0e0bb4e38e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-07-23 16:49:21.725 +01:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-23 16:53:54.154 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 16:53:56.888 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 16:53:57.173 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 16:53:57.205 +01:00 [INF] Hosting environment: Development
+2025-07-23 16:53:57.379 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 16:55:28.248 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'SimpleECommerce.Infrastructure.Data.SimpleECommerceDbContext'.
+System.InvalidOperationException: The value of 'CartItemEntity.ProductId' is unknown when attempting to save changes. This is because the property is also part of a foreign key for which the principal entity in the relationship is not known.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.PrepareToSave()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetEntriesToSave(Boolean cascadeChanges)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: The value of 'CartItemEntity.ProductId' is unknown when attempting to save changes. This is because the property is also part of a foreign key for which the principal entity in the relationship is not known.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.PrepareToSave()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetEntriesToSave(Boolean cascadeChanges)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-07-23 16:55:28.848 +01:00 [ERR] The value of 'CartItemEntity.ProductId' is unknown when attempting to save changes. This is because the property is also part of a foreign key for which the principal entity in the relationship is not known.
+2025-07-23 17:09:24.747 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 17:09:24.857 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 17:09:25.858 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 17:09:25.878 +01:00 [INF] Hosting environment: Development
+2025-07-23 17:09:28.190 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 17:32:48.644 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 17:32:50.025 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 17:32:53.050 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 17:32:53.076 +01:00 [INF] Hosting environment: Development
+2025-07-23 17:32:53.087 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 17:35:31.724 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 17:35:31.866 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 17:35:32.060 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 17:35:32.072 +01:00 [INF] Hosting environment: Development
+2025-07-23 17:35:32.078 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 17:48:02.612 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 17:48:02.750 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 17:48:02.964 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 17:48:02.990 +01:00 [INF] Hosting environment: Development
+2025-07-23 17:48:03.022 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 17:58:31.884 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 17:58:32.985 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 17:58:34.927 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 17:58:34.959 +01:00 [INF] Hosting environment: Development
+2025-07-23 17:58:34.972 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api
+2025-07-23 18:24:43.304 +01:00 [INF] Now listening on: https://localhost:7226
+2025-07-23 18:24:43.583 +01:00 [INF] Now listening on: http://localhost:5034
+2025-07-23 18:24:46.814 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-23 18:24:47.631 +01:00 [INF] Hosting environment: Development
+2025-07-23 18:24:47.639 +01:00 [INF] Content root path: C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Api

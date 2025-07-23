@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\bin\Debug\net8.0\SimpleECommerce.Domain.deps.json
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\bin\Debug\net8.0\SimpleECommerce.Domain.dll
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\bin\Debug\net8.0\SimpleECommerce.Domain.pdb
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\obj\Debug\net8.0\SimpleECommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\obj\Debug\net8.0\SimpleECommerce.Domain.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\obj\Debug\net8.0\SimpleECommerce.Domain.AssemblyInfo.cs
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\obj\Debug\net8.0\SimpleECommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\obj\Debug\net8.0\SimpleECommerce.Domain.dll
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\obj\Debug\net8.0\refint\SimpleECommerce.Domain.dll
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\obj\Debug\net8.0\SimpleECommerce.Domain.pdb
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\obj\Debug\net8.0\ref\SimpleECommerce.Domain.dll
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\obj\Debug\net8.0\SimpleECommerce.Domain.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\bin\Debug\net8.0\SharedLibPackage.dll
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\bin\Debug\net8.0\SharedLibPackage.pdb
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Domain\obj\Debug\net8.0\SimpleEC.12EEBE0F.Up2Date

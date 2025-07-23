@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\obj\Debug\net8.0\SimpleECommerce.Application.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\obj\Debug\net8.0\SimpleECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\obj\Debug\net8.0\SimpleECommerce.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\obj\Debug\net8.0\SimpleECommerce.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\obj\Debug\net8.0\SimpleECommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\bin\Debug\net8.0\SimpleECommerce.Application.deps.json
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\bin\Debug\net8.0\SimpleECommerce.Application.dll
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\bin\Debug\net8.0\SimpleECommerce.Application.pdb
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\bin\Debug\net8.0\SharedLibPackage.dll
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\bin\Debug\net8.0\SimpleECommerce.Domain.dll
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\bin\Debug\net8.0\SimpleECommerce.Domain.pdb
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\bin\Debug\net8.0\SharedLibPackage.pdb
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\obj\Debug\net8.0\SimpleEC.04458D14.Up2Date
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\obj\Debug\net8.0\SimpleECommerce.Application.dll
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\obj\Debug\net8.0\refint\SimpleECommerce.Application.dll
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\obj\Debug\net8.0\SimpleECommerce.Application.pdb
+C:\Users\HP\Desktop\FullStakProjects\SimpleECommerce\SimpleECommerce.Application\obj\Debug\net8.0\ref\SimpleECommerce.Application.dll
